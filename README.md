@@ -5,7 +5,6 @@ Este projeto foi criado com o objetivo de praticar os fundamentos de **Programa�
 ---
 
 ## 📁 Estrutura do Projeto
-poo_python_estudos/
 ```
 .
 ├── classes/
@@ -47,4 +46,5 @@ poo_python_estudos/
    ```bash
    git clone https://github.com/SEU_USUARIO/poo_python_estudos.git
    cd poo_python_estudos
+
 
