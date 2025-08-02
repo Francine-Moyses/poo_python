@@ -6,16 +6,19 @@ Este projeto foi criado com o objetivo de praticar os fundamentos de **Programa�
 
 ## 📁 Estrutura do Projeto
 poo_python_estudos/
+```
+.
 ├── classes/
-│ ├── Cliente.py
-│ ├── Conta.py
-│ └── init.py
+│   ├── Cliente.py
+│   ├── Conta.py
+│   └── __init__.py
 ├── tests/
-│ ├── test_cliente.py
-│ └── init.py
+│   ├── test_cliente.py
+│   └── __init__.py
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -44,3 +47,4 @@ poo_python_estudos/
    ```bash
    git clone https://github.com/SEU_USUARIO/poo_python_estudos.git
    cd poo_python_estudos
+
