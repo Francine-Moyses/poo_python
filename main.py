@@ -1,13 +1,13 @@
 class Main:
     pass
 
-print("Testando o projeto")
-
 from classes.Cliente import Cliente
 
 from classes.Conta import Conta
 
 c1 = Cliente("João", "114444-2222")
-conta = Conta(c1.nome,6565,0)
+conta = Conta(c1.get_nome(),1222)
 
-print(conta.titular," Numero: ", conta.numero, "Seu saldo: ", conta.saldo)
+conta.deposita(100)
+conta.saque(50)
+conta.extrato()
