@@ -55,6 +55,41 @@ Este projeto foi criado com o objetivo de praticar os fundamentos de **Programa�
    ```bash
    git clone https://github.com/SEU_USUARIO/poo_python_estudos.git
    cd poo_python_estudos
+   ```
+2. Crie e ative um ambiente virtual (Opcional):
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate   # No Windows
+   source venv/bin/activate  # No Linux/macOS
+   ```
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Execute o projeto:
+   ```bash
+   python main.py
+   ```
+---
 
+## 🧪 Executando os testes
 
+Para rodar todos os testes com unittest, use:
+   ```bash
+   python -m unittest discover -s tests
+   ```
+---
 
+## 📌 Funcionalidades
+
+- Criar cliente e conta
+- Realizar depósito
+- Efetuar saque
+- Transferência entre contas
+- Consultar extrato
+- Interface de terminal com emojis e cores (colorama e emoji)
+
+---
+
+## 📝 Licença
+Este projeto é livre para fins de estudo e aprendizado. Nenhuma licença específica foi aplicada.
