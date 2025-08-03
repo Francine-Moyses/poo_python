@@ -44,8 +44,8 @@ Este projeto foi criado com o objetivo de praticar os fundamentos de **Programa�
 - Construtores (`__init__`)
 - Atributos de instância
 - Métodos
-- Encapsulamento (em breve)
-- Herança (em breve)
+- Encapsulamento
+- Herança
 
 ---
 
@@ -93,3 +93,4 @@ Para rodar todos os testes com unittest, use:
 
 ## 📝 Licença
 Este projeto é livre para fins de estudo e aprendizado. Nenhuma licença específica foi aplicada.
+
