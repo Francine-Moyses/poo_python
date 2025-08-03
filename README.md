@@ -8,15 +8,24 @@ Este projeto foi criado com o objetivo de praticar os fundamentos de **Programa�
 ```
 .
 ├── classes/
-│   ├── Cliente.py
-│   ├── Conta.py
-│   └── __init__.py
-├── tests/
+│   ├── Banco.py              # Classe que gerencia contas e clientes
+│   ├── Cliente.py            # Classe Cliente com atributos e métodos
+│   ├── Conta.py              # Classe Conta com operações bancárias
+│   ├── __init__.py
+│   └── __pycache__/          # Arquivos de cache do Python (ignorar no Git)
+│
+├── tests/                    # Testes automatizados com unittest
+│   ├── test_banco.py
 │   ├── test_cliente.py
-│   └── __init__.py
-├── main.py
-├── requirements.txt
-└── README.md
+│   ├── test_conta.py
+│   ├── __init__.py
+│   └── __pycache__/          # Arquivos de cache do Python (ignorar no Git)
+│
+├── main.py                   # Menu interativo e execução do sistema bancário
+├── requirements.txt          # Dependências do projeto (colorama, emoji, etc.)
+├── README.md                 # Documentação do projeto
+└── .gitignore                # Arquivos e pastas ignoradas pelo Git
+
 ```
 
 ---
@@ -46,5 +55,6 @@ Este projeto foi criado com o objetivo de praticar os fundamentos de **Programa�
    ```bash
    git clone https://github.com/SEU_USUARIO/poo_python_estudos.git
    cd poo_python_estudos
+
 
 
